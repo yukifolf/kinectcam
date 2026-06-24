@@ -52,7 +52,7 @@ Environment=KINECT_IR_DEV=/dev/video10
 Environment=KINECT_RGB_DEV=/dev/video11
 Environment=KINECT_IR_AUTO=1
 Restart=no
-RuntimeMaxSec=60
+RuntimeMaxSec=30
 
 [Install]
 WantedBy=multi-user.target
